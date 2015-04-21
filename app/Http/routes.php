@@ -15,7 +15,10 @@ Route::get('/', 'WelcomeController@index');
 
 Route::get('home', 'HomeController@index');
 
-Route::controllers([
-	'auth' => 'Auth\AuthController',
-	'password' => 'Auth\PasswordController',
-]);
+Route::get('register',function(){
+	return View::make('register');
+});
+
+Route::get('login',function(){
+	return View::make('login');
+});
