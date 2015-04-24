@@ -4,6 +4,70 @@
 		"selected_items":
 		[
 			[
+				"fun",
+				"function"
+			],
+			[
+				"req",
+				"required"
+			],
+			[
+				"L",
+				"Last_Name"
+			],
+			[
+				"Fir",
+				"First_Name"
+			],
+			[
+				"sc",
+				"script	Tag"
+			],
+			[
+				"re",
+				"Request"
+			],
+			[
+				"Re",
+				"Request"
+			],
+			[
+				"scr",
+				"script	<script>"
+			],
+			[
+				"script",
+				"script	Tag"
+			],
+			[
+				"ty",
+				"type	Attr"
+			],
+			[
+				"sty",
+				"style	Attr"
+			],
+			[
+				"route",
+				"Route"
+			],
+			[
+				"ti",
+				"title	<title>"
+			],
+			[
+				"na",
+				"name"
+			],
+			[
+				"form",
+				"form-register"
+			],
+			[
+				"as",
+				"asset	blade-asset"
+			],
+			[
 				"View",
 				"View-make	View-make"
 			],
@@ -32,10 +96,6 @@
 				"public"
 			],
 			[
-				"fun",
-				"function"
-			],
-			[
 				"con",
 				"contact"
 			]
@@ -47,9 +107,33 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 150.0,
 		"selected_items":
 		[
+			[
+				"compi",
+				"Laravel Artisan: Clear Compiled"
+			],
+			[
+				"texta",
+				"Snippet: <textarea>"
+			],
+			[
+				"contai",
+				"Snippet: bs3-container"
+			],
+			[
+				"Snippet form",
+				"Snippet: bs3-form-horizontal"
+			],
+			[
+				"sn",
+				"Snippet: bs3-navbar-form"
+			],
+			[
+				"Is",
+				"Snippet: bs3-input-text-h"
+			],
 			[
 				"Package Control: Install Package",
 				"Package Control: Install Package"
@@ -63,7 +147,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 416.0
+		"width": 528.0
 	},
 	"console":
 	{
@@ -83,26 +167,52 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/C/wamp/www/MyProject/BlogProject",
-		"/C/wamp/www/MyProject/BlogProject/app",
-		"/C/wamp/www/MyProject/BlogProject/app/Http",
-		"/C/wamp/www/MyProject/BlogProject/app/Http/Controllers",
-		"/C/wamp/www/MyProject/BlogProject/app/Http/Controllers/Auth",
-		"/C/wamp/www/MyProject/BlogProject/app/Http/Middleware",
-		"/C/wamp/www/MyProject/BlogProject/app/Http/Requests",
-		"/C/wamp/www/MyProject/BlogProject/bootstrap",
-		"/C/wamp/www/MyProject/BlogProject/database/migrations",
-		"/C/wamp/www/MyProject/BlogProject/public",
-		"/C/wamp/www/MyProject/BlogProject/resources",
-		"/C/wamp/www/MyProject/BlogProject/resources/views",
-		"/C/wamp/www/MyProject/BlogProject/storage",
-		"/C/wamp/www/MyProject/BlogProject/storage/framework",
-		"/C/wamp/www/MyProject/BlogProject/storage/logs"
-	],
 	"file_history":
 	[
+		"/C/wamp/www/laravel-login-master/app/models/User.php",
+		"/C/wamp/www/laravel-login-master/app/start/local.php",
+		"/C/wamp/www/laravel-login-master/artisan",
+		"/C/wamp/www/laravel-login-master/app/start/global.php",
+		"/C/wamp/www/laravel-login-master/app/filters.php",
+		"/C/wamp/www/laravel-login-master/app/start/artisan.php",
+		"/C/wamp/www/Laravel5/app/Http/admin_routes.php",
+		"/C/wamp/www/Laravel5/app/Http/Kernel.php",
+		"/C/wamp/www/Laravel5/app/Http/routes.php",
+		"/C/wamp/www/Laravel5/app/Http/Controllers/AdminController.php",
+		"/C/wamp/www/Laravel5/app/Http/Controllers/ArticlesController.php",
+		"/C/wamp/www/MyProject/resources/views/index.blade.php",
+		"/C/wamp/www/MyProject/app/Http/Controllers/PagesController.php",
+		"/C/wamp/www/MyProject/app/Http/routes.php",
+		"/C/wamp/www/MyProject/vendor/phpunit/php-code-coverage/src/CodeCoverage/Filter.php",
+		"/C/wamp/www/Laravel5/artisan",
+		"/C/wamp/www/MyProject/resources/views/entry/new-entry.blade.php",
+		"/C/wamp/www/MyProject/resources/views/pages/register.blade.php",
+		"/C/wamp/www/MyProject/app/User.php",
+		"/C/wamp/www/MyProject/vendor/phpunit/phpunit/src/Util/Filter.php",
+		"/C/Users/™Java™/Downloads/laravel-login-master/laravel-login-master/app/filters.php",
+		"/C/Users/™Java™/Downloads/laravel-login-master/laravel-login-master/app/routes.php",
+		"/E/html,css/charisma-master_goc/charisma-master/form.html",
+		"/C/wamp/www/MyProject/app/Http/Controllers/UserController.php",
+		"/C/wamp/www/MyProject/resources/views/pages/login.blade.php",
+		"/C/wamp/www/MyProject/config/app.php",
+		"/E/html,css/charisma-master_goc/charisma-master/index.html",
+		"/C/wamp/www/MyProject/resources/views/auth/login.blade.php",
+		"/C/wamp/www/MyProject/app/Http/Controllers/WelcomeController.php",
+		"/C/wamp/www/MyProject/storage/framework/views/3aa125ca90a2b377c0704e09f92e3c42",
+		"/C/wamp/www/MyProject/app/Http/Controllers/HomeController.php",
+		"/C/wamp/www/MyProject/database/migrations/2015_04_21_174259_create_posts_table.php",
+		"/C/wamp/www/MyProject/database/migrations/2015_04_21_174241_create_users_table.php",
+		"/C/wamp/www/MyProject/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/C/wamp/www/MyProject/config/database.php",
+		"/C/wamp/www/MyProject/.env",
+		"/C/wamp/www/MyProject/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php",
+		"/C/wamp/www/MyProject/app/Admin.php",
+		"/C/wamp/www/MyProject/public/index.php",
+		"/C/wamp/www/MyProject/app/Http/Controllers/LoginController.php",
+		"/C/wamp/www/MyProject/app/Http/Controllers/Controller.php",
+		"/C/wamp/www/MyProject/resources/views/register.blade.php",
+		"/C/wamp/www/MyProject/resources/views/app.blade.php",
+		"/C/wamp/www/MyProject/resources/views/login.blade.php",
 		"/C/wamp/www/MyProject/BlogProject/app/Http/Controllers/LoginController.php",
 		"/C/wamp/www/MyProject/BlogProject/resources/views/register.blade.php",
 		"/C/wamp/www/MyProject/BlogProject/resources/views/app.blade.php",
@@ -246,6 +356,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -287,6 +401,10 @@
 	"selected_group": 0,
 	"settings":
 	{
+		"xdebug":
+		{
+			"hide_conflict": false
+		}
 	},
 	"show_minimap": true,
 	"show_open_files": false,

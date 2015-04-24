@@ -11,14 +11,31 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
+Route::get('/', 'PagesController@index');
 
-Route::get('home', 'HomeController@index');
+Route::get('articles',[
+	'as' =>'article.index',
+	'uses' => 'ArticlesController@index'
+	]);
 
-Route::get('register',function(){
-	return View::make('register');
-});
+Route::get('articles/create',[
+		'as' => 'article.create',
+		'uses' => 'ArticlesController@create'
+	]);
 
-Route::get('login',function(){
-	return View::make('login');
-});
+Route::post('articles',[
+		'as' => 'article.store',
+		'uses' => 'ArticlesController@store'
+	]);
+
+Route::get('/articles/{id}', [
+		'as' => 'article.show',
+		'uses' => 'ArticlesController@show'
+	]);
+
+
+
+Route::controllers([
+	'auth' => 'Auth\AuthController',
+	'password' => 'Auth\PasswordController',
+]);
