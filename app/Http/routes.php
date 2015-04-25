@@ -12,7 +12,25 @@
 */
 
 Route::get('/', 'PagesController@index');
+//============ Start User ==================
+Route::get('users/login',[
+		'as' =>'users.login',
+		'uses' => 'UsersController@login'
+	]);
 
+Route::get('users/register',[
+		'as' =>'users.register',
+		'uses' => 'UsersController@create'
+	]);
+Route::post('users',[
+		'as' => 'users.store',
+		'uses' => 'UsersController@store'
+	]);
+
+//============ End User ==================
+
+
+// ============ Start article ===============
 Route::get('articles',[
 	'as' =>'article.index',
 	'uses' => 'ArticlesController@index'
@@ -48,7 +66,7 @@ Route::get('/articles/{id}', [
 		'uses' => 'ArticlesController@show'
 	]);
 
-
+//========= End article =========
 
 
 

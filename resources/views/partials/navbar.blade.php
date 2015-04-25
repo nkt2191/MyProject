@@ -16,11 +16,12 @@
 				<li><a href="{{ route('article.create') }}">New Article</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
-						<li><a href="#">Login</a></li>
-						<li><a href="#">Register</a></li>
+						<li><a href="{{ route('users.login') }}">Login</a></li>
+						<li><a href="{{ route('users.register') }}">Register</a></li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">  <span class="caret"></span></a>
 							<ul class="dropdown-menu" role="menu">
+								<li><a href="">Profile</a></li>
 								<li><a href="">Logout</a></li>
 							</ul>
 						</li>
