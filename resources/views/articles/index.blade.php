@@ -11,11 +11,16 @@ List Articles
 		@foreach ($articles as $a)
 			<div class="col-sm-6 col-sm-offset-3">
 			<h2>{{ $a->title }}</h2>
-			<p>{{ $a->content }}</p>
+			<p maxlength='10'>{{ $a->content }}</p>
 			<p><a href="{{ route('article.show',$a->id) }}">Read more...</a></p>
 		</div>
 		@endforeach		
 	</div>
 	<!-- End -->
+	<div class="row">
+		<div class="col-sm-6 col-sm-offset-3">
+			{!! $articles->render() !!}
+		</div>
+	</div>
 </div>
 @endsection

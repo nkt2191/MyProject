@@ -1,7 +1,7 @@
 @extends('master')
 
 @section ('head.title')
-Post New Article...!
+Edit  Article
 @endsection
 
 @section ('body.content')
@@ -9,7 +9,7 @@ Post New Article...!
 	
 	<div class="row">
 		<div class="col-sm-6 col-sm-offset-3">
-			<h1>Add new article</h1>
+			<h1>Edit article</h1>
 			<hr>
 		</div>
 	</div>
@@ -27,14 +27,14 @@ Post New Article...!
 						</div>
 					@endif
 
-			{!! Form::open([
-					'route' => ['article.store'],
-					'method' => 'POST',
+			{!! Form::model($article,[
+					'route' => ['article.update',$article ->id],
+					'method' => 'PUT',
 					'class' => 'form-horizontal'
 				])
 				 !!}
 
-			@include('articles._form',['button_name'=>'Add'])
+				@include('articles._form',['button_name' => 'Update'])
 			{!! Form::close() !!}
 
 

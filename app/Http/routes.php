@@ -28,10 +28,27 @@ Route::post('articles',[
 		'uses' => 'ArticlesController@store'
 	]);
 
+Route::get('articles/{id}/edit', [
+		'as' => 'article.edit',
+		'uses' => 'ArticlesController@edit'
+	]);
+
+Route::put('articles/{id}',[
+		'as' => 'article.update',
+		'uses' => 'ArticlesController@update'
+	]);
+
+Route::delete('articles/{id}',[
+		'as' => 'article.destroy',
+		'uses' => 'ArticlesController@destroy'
+	]);
+
 Route::get('/articles/{id}', [
 		'as' => 'article.show',
 		'uses' => 'ArticlesController@show'
 	]);
+
+
 
 
 

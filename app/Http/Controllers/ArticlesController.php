@@ -10,7 +10,7 @@ class ArticlesController extends Controller {
 
 	public function index(){
 
-		$articles = Article::all();
+		$articles = Article::paginate(3);
 		return view('articles.index', compact('articles'));
 	}
 
@@ -32,6 +32,29 @@ class ArticlesController extends Controller {
 			'content' => $content
 			]);
 
+		return redirect()-> route('article.index');
+	}
+
+	public function edit($id){
+		$article = Article::find($id);
+
+		return view('articles.edit', compact('article'));
+	}
+
+	public function update($id, ArticleFormRequest $request){
+		$article= Article::find($id);
+
+		$article->update([
+				'title' => $request->get('title'),
+				'content' => $request->get('content')
+			]);
+
+		return redirect()-> route('article.index');
+	}
+
+	public function destroy($id){
+		$article= Article::find($id);
+		$article-> delete();
 		return redirect()-> route('article.index');
 	}
 }

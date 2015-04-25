@@ -24,6 +24,21 @@
 		</div>
 		
 	</div>
+	<div class="row">
+		<div class="col-sm-6 col-sm-offset-3">
+			<a href="{{ route('article.edit',$article->id) }}" class="btn btn-info">Edit</a>
+
+			{!! Form::open([
+					'route' => ['article.destroy',$article->id],
+					'method' =>'DELETE',
+					'style' => 'display: inline'
+				]) !!}
+
+				<button class="btn btn-danger">Delete</button>
+
+			{!! Form::close() !!}
+		</div>
+	</div>
 	<!-- End -->
 </div>
 @endsection
